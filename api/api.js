@@ -1,5 +1,6 @@
 // Required Imports
 const express   = require('express');
+const bodyParser = require('body-parser');
 const apiRouter = express.Router(mergeParams=true);
 
 // All the child routers defined
